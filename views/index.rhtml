@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" media="all" href="/css/styles.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="/js/sousvide.js"></script>
+		<script type="text/javascript" src="/js/callbacks.js"></script>
+	</head>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div class="settings">
+                    <div class="settings-title">
+                        Settings
+                    </div>
+				</div>
+                <div class="temp-display" id="current-temp">
+                    <span>102.5</span>
+                  </div>
+                <div class="temp-display">
+                  <span>&larr;</span>
+                </div>
+                <div class="blue-temp-display" id="target-temp">
+                    <span>102.5</span>
+                </div>
+			</div>
+			<div id="content-bg"></div>
+            <div class="number-list dp100">
+                <div class="setter">
+                  
+                  <div class="setter-up">
+                    <span id="setter-up-arrow">&uArr;</span>
+                  </div>
+
+                    <input type="text" id="setter-input" class="setter-input" maxlength="5" value="100.0"/>
+
+                  <div class="setter-down">
+                      <span class="center" id="setter-down-arrow">&dArr;</span>
+                      <span class="right" id="setter-ok-button">OK</span>
+                  </div>
+
+                </div>
+            <div>
+                <ul class="dp25 temp-display">
+                    <li style="opacity:1;">102.0</li>
+                    <li style="opacity:.8;">101.5</li>
+                    <li style="opacity:.6;">101.0</li>
+                    <li style="opacity:.4;">100.5</li>
+                    <li style="opacity:.2;">100.0</li>
+                </ul>
+            </div>
+
+		</div>
+	</body>
+</html>
